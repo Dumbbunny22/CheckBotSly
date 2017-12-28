@@ -7,11 +7,11 @@ bot.on('message', (message) => {
     if (message.content == prefix + 'check') {
         message.channel.send('Timer Reset !');
         clearInterval(CheckTimer);
-        CheckTimer = setInterval(CheckClock, 10000);//1800000
+        CheckTimer = setInterval(CheckClock, 1800000);//1800000
     } else if (message.content == prefix + 'stop') {
         throw new Error('BOT STOPPED !');
     } else if (message.content == prefix + 'start') {
-        CheckTimer = setInterval(CheckClock, 10000);
+        CheckTimer = setInterval(CheckClock, 1800000);
     }
 
 });
