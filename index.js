@@ -19,4 +19,4 @@ function CheckClock(){
     }
 } 
 
-bot.login(process.env.Mzk1NjY1MjYyNjQyMzMxNjQ4.DSYH6Q.JztHOVU790z3NxWeRQv3qbMkiJU);
+bot.login(process.env.BOT_TOKEN);
